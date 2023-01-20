@@ -1,104 +1,117 @@
-body{  
+body {
     margin: 0px;
     padding: 0px;
-    
+
 }
 
-.flex-row{
+.flex-row {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-.flex-row-n{
+
+.flex-row-n {
     display: flex;
     flex-direction: row;
 }
-.flex-row-reverse{
+
+.flex-row-reverse {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
 }
-.flex-col{
+
+.flex-col {
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
 }
-.flex-col-n{
+
+.flex-col-n {
     display: flex;
     flex-direction: column;
-    
+
 }
-.flex-col-reverse{
+
+.flex-col-reverse {
     display: flex;
     flex-direction: column-reverse;
     justify-items: center;
-    
+
 }
 
-.nav{
+.nav {
     justify-content: space-between;
     z-index: 99;
     margin: 0px;
     height: 96px;
     width: 100vw;
     background-color: white;
-    position:fixed;
-    box-shadow: -1px 2px 9px 0px rgba(206,206,206,0.63);
--webkit-box-shadow: -1px 2px 9px 0px rgba(206,206,206,0.63);
--moz-box-shadow: -1px 2px 9px 0px rgba(206,206,206,0.63);
+    position: fixed;
+    box-shadow: -1px 2px 9px 0px rgba(206, 206, 206, 0.63);
+    -webkit-box-shadow: -1px 2px 9px 0px rgba(206, 206, 206, 0.63);
+    -moz-box-shadow: -1px 2px 9px 0px rgba(206, 206, 206, 0.63);
 
 }
-.bgimg{
-    background-image: url("./assets/doodle.jpg");
+
+.bgimg {
+    /* background-image: url("./assets/doodle.jpg"); */
+    background-image: url(https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=2000);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.bg1{
+
+.bg1 {
     background-color: white;
 }
-.bg2{
-    background-color: #ececec;    
+
+.bg2 {
+    background-color: #ececec;
 }
-.bg3{
+
+.bg3 {
     background-color: #f8f8f8;
 }
 
 .grad {
-    background-image: linear-gradient(to right,white, #ececec);
-  }
+    background-image: linear-gradient(to right, white, #ececec);
+}
 
-.primary{
+.primary {
     background-color: #0050ff;
 }
 
-#rect{
+#rect {
     background-color: #0050ff;
     height: 16px;
     width: 16px;
     margin: 10px;
 }
-.line{
+
+.line {
     background-color: #0050ff;
     height: 2px;
     width: 48px;
     border-radius: 6px;
-    
+
 }
 
-.name{
+.name {
     font-family: 'Poppins', sans-serif;
 }
 
-.subhead{
+.subhead {
     font-family: 'Quicksand', sans-serif;
     font-size: large;
-    
+
 }
-.navlink{
+
+.navlink {
     margin-left: 12px;
     margin-right: 12px;
 }
+
 .navlink:hover {
     color: #0050ff;
     margin-left: 12px;
@@ -106,13 +119,14 @@ body{
 }
 
 
-.dp{
+.dp {
     height: 180px;
     width: 180px;
     display: inline;
     margin: 0 auto;
-    
+
 }
+
 .image-cropper {
     width: 180px;
     height: 180px;
@@ -123,25 +137,27 @@ body{
     box-shadow: -8px 6px 16px -3px rgba(211, 211, 211, 0.5);
     -webkit-box-shadow: -8px 6px 16px -3px rgba(211, 211, 211, 0.5);
     -moz-box-shadow: -8px 6px 16px -3px rgba(211, 211, 211, 0.5);
-  }
+}
 
-.over{
+.over {
     overflow: visible;
     position: relative;
 }
 
-#card{
-    width: 400px;  margin-left: 340px;
+#card {
+    width: 400px;
+    margin-left: 340px;
     margin-top: 172px;
     margin-bottom: 100px;
     height: auto;
-    align-items:center ;
-    box-shadow: -8px 6px 16px -3px rgba(142,142,142,0.5);
-    -webkit-box-shadow: -8px 6px 16px -3px rgba(142,142,142,0.5);
-    -moz-box-shadow: -8px 6px 16px -3px rgba(142,142,142,0.5);
+    align-items: center;
+    box-shadow: -8px 6px 16px -3px rgba(142, 142, 142, 0.5);
+    -webkit-box-shadow: -8px 6px 16px -3px rgba(142, 142, 142, 0.5);
+    -moz-box-shadow: -8px 6px 16px -3px rgba(142, 142, 142, 0.5);
     border-radius: 4px;
 }
-#card-bottom{
+
+#card-bottom {
     width: 360px;
     margin-top: 28px;
     height: 64px;
@@ -152,20 +168,20 @@ body{
     -webkit-box-shadow: -8px 6px 16px -3px rgba(211, 211, 211, 0.5);
     -moz-box-shadow: -8px 6px 16px -3px rgba(211, 211, 211, 0.5);
     border-radius: 4px;
-   
+
 }
 
-.px{
+.px {
     padding-left: 8px;
     padding-right: 8px;
 }
 
-.lp-para{
+.lp-para {
     margin-left: 130px;
     margin-right: 48px;
 }
 
-.button1:hover{
+.button1:hover {
     border: solid 2px #0050ff;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
@@ -177,7 +193,7 @@ body{
     text-align: center;
 }
 
-.button1{
+.button1 {
     border: solid 2px #0050ff;
     background-color: #0050ff;
     color: white;
@@ -189,7 +205,7 @@ body{
     font-weight: 600;
 }
 
-.button2{
+.button2 {
     border: solid 2px #0050ff;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
@@ -201,7 +217,7 @@ body{
     text-align: center;
 }
 
-.button2:hover{
+.button2:hover {
     border: solid 2px #0050ff;
     background-color: #0050ff;
     color: white;
@@ -213,7 +229,7 @@ body{
     text-align: center;
 }
 
-.input{
+.input {
     border: 2px #919191;
     width: 300px;
     margin-top: 22px;
@@ -225,17 +241,18 @@ body{
     outline: 0;
 }
 
-input:focus{
+input:focus {
     border: 3px #0050ff;
     border-style: none none solid none;
     outline: 0;
-    
+
 }
-.insetshadow{
+
+.insetshadow {
     box-shadow: inset 0px 0px 21px 0px #EAEAEA;
 }
 
-.hd2{
+.hd2 {
     background-image: url('./assets/bg.gif');
     background-size: cover;
     background-repeat: no-repeat;
@@ -244,7 +261,7 @@ input:focus{
     text-align: center;
 }
 
-.face1{
+.face1 {
     overflow: hidden;
     width: 200px;
     height: 150px;
@@ -256,7 +273,7 @@ input:focus{
     -moz-box-shadow: -8px 6px 16px -3px rgba(211, 211, 211, 0.5);
 }
 
-.face2{
+.face2 {
     width: 200px;
     height: 60px;
     background-color: white;
@@ -266,17 +283,18 @@ input:focus{
     border-radius: 4px;
 }
 
-.cardeffect{
+.cardeffect {
     margin: 0px 18px 0px 18px;
     transform: translate(0px, 0px);
     transition: transform 0.5s;
 }
-.cardeffect:hover{
+
+.cardeffect:hover {
     transform: translate(0px, -10px);
-    
+
 }
 
-.face3{
+.face3 {
     overflow: hidden;
     width: 200px;
     height: 150px;
@@ -288,7 +306,7 @@ input:focus{
     -moz-box-shadow: -8px 6px 16px -3px rgba(211, 211, 211, 0.5);
 }
 
-.face4{
+.face4 {
     width: 200px;
     height: 224px;
     background-color: white;
@@ -298,11 +316,11 @@ input:focus{
     border-radius: 4px;
 }
 
-.p-8{
+.p-8 {
     padding: 8px;
 }
 
-.adobexd{
+.adobexd {
     border: solid 2px #450034;
     background-color: #450034;
     color: #FF61F6;
@@ -317,7 +335,7 @@ input:focus{
     margin: 18px 4px 0px 4px;
 }
 
-.ai{
+.ai {
     border: solid 2px #2D0402;
     background-color: #2D0402;
     color: #FF9A00;
@@ -326,13 +344,13 @@ input:focus{
     padding: 4px;
     font-size: x-small;
     padding-bottom: 5px;
-    border-radius:100%;
+    border-radius: 100%;
     text-align: center;
     font-weight: 600;
     margin: 18px 4px 0px 4px;
 }
 
-.be{
+.be {
     border: solid 2px #0057FF;
     background-color: #0057FF;
     color: white;
@@ -343,12 +361,12 @@ input:focus{
     padding-bottom: 5px;
     border-radius: 20px;
     text-align: center;
-    
+
     font-weight: 600;
     margin: 18px 4px 0px 4px;
 }
 
-.tcss{
+.tcss {
     background-image: url('cards/tcss.png');
     background-size: contain;
     width: 24px;
@@ -357,7 +375,7 @@ input:focus{
     border-radius: 100%;
 }
 
-.alpine{
+.alpine {
     background-image: url('cards/alpine.png');
     background-size: contain;
     width: 24px;
@@ -366,7 +384,7 @@ input:focus{
     border-radius: 100%;
 }
 
-.github{
+.github {
     background-image: url('cards/github.png');
     background-size: contain;
     width: 24px;
@@ -375,7 +393,7 @@ input:focus{
     border-radius: 100%;
 }
 
-.figma{
+.figma {
     background-image: url('cards/figma.png');
     background-size: contain;
     width: 24px;
@@ -384,7 +402,7 @@ input:focus{
     border-radius: 100%;
 }
 
-.skillbox{
+.skillbox {
     background-size: contain;
     border-radius: 100%;
     overflow: hidden;
@@ -393,56 +411,58 @@ input:focus{
     margin: 0px 12px 0px 12px;
     border-radius: 100%;
 }
-.bottom{
+
+.bottom {
     line-height: 6px;
     font-size: smaller;
     margin-top: 18px;
     text-align: center;
 }
 
-#contactform{
+#contactform {
     margin: 18px 0px 18px 0px;
     box-shadow: -8px 6px 16px -3px rgba(211, 211, 211, 0.5);
     -webkit-box-shadow: -8px 6px 16px -3px rgba(211, 211, 211, 0.5);
     -moz-box-shadow: -8px 6px 16px -3px rgba(211, 211, 211, 0.5);
 }
 
-.contactimg{
-    border-radius: 4px 0px 0px 4px;
-    width: 200px;
+.contactimg {
+    border-radius: 4px;
+    width: 325px;
     height: 250px;
     align-items: center;
     background-image: url('./assets/bg.gif');
     background-size: cover;
 }
 
-.form{
+.form {
     margin-left: 32px;
     margin-right: 56px;
     text-align: left;
 }
 
-.formbox{
+.formbox {
     border-radius: 0px 4px 4px 0px;
-    
+
 }
 
-#landingpage1{
+#landingpage1 {
     width: 40vw;
 }
 
 
 
-.navbar{
-    list-style: none; margin-right: 96px;
+.navbar {
+    list-style: none;
+    margin-right: 96px;
 
 }
 
-.name{
+.name {
     font-size: x-large;
 }
 
-.cardrow{
+.cardrow {
     height: 390px;
     padding-top: 12px;
     overflow-x: scroll;
@@ -451,55 +471,61 @@ input:focus{
     justify-content: center;
 }
 
-#skillrow1{
-    margin-top: 48px; margin-bottom: 52px;
+#skillrow1 {
+    margin-top: 48px;
+    margin-bottom: 52px;
 }
 
-#skillrow2{
-    margin-top: 48px; margin-bottom: 52px;
+#skillrow2 {
+    margin-top: 48px;
+    margin-bottom: 52px;
 }
 
-.lp-para-main{
+.lp-para-main {
     max-width: 700px;
 }
 
-.send{
-    margin-top: 24px; margin-bottom: 18px; font-size:small; margin-left: 32px;
+.send {
+    margin-top: 24px;
+    margin-bottom: 18px;
+    font-size: small;
+    margin-left: 32px;
 }
 
-#logo{
+#logo {
     max-width: 340px;
     margin-left: 64px;
 }
-.burgerbutton{
+
+.burgerbutton {
     margin-right: 32px;
 }
 
-#closer{
+#closer {
     float: right;
     margin: 21.5px 18px 0px 0px;
 }
 
-button{
+button {
     outline: none;
     border: none;
     background-color: white;
-    cursor:pointer;
+    cursor: pointer;
     align-items: center;
     justify-content: center;
     padding-top: 4px;
 }
- 
-#license{
+
+#license {
     text-decoration: underline;
     color: #0050ff;
 }
 
-#closebt{
+#closebt {
     margin-right: 18px;
 }
 
-#sidebar{
+#sidebar {
     width: 70%;
     height: 100vh;
     overflow: auto;
@@ -508,11 +534,12 @@ button{
     z-index: 100;
     transition: transform .2s;
     background-color: white;
-    -webkit-box-shadow: 0px -1px 112px -36px rgba(199,199,199,1);
--moz-box-shadow: 0px -1px 112px -36px rgba(199,199,199,1);
-box-shadow: 0px -1px 112px -36px rgba(199,199,199,1);
+    -webkit-box-shadow: 0px -1px 112px -36px rgba(199, 199, 199, 1);
+    -moz-box-shadow: 0px -1px 112px -36px rgba(199, 199, 199, 1);
+    box-shadow: 0px -1px 112px -36px rgba(199, 199, 199, 1);
 }
-.mt{
+
+.mt {
     margin-top: 40px;
 }
 
@@ -520,350 +547,424 @@ box-shadow: 0px -1px 112px -36px rgba(199,199,199,1);
     transform: translate(100%);
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
-a:hover{ 
-    color:#0050ff;
+
+a:hover {
+    color: #0050ff;
 }
 
-#sidebarlinks{
-    align-items:flex-start;
+#sidebarlinks {
+    align-items: flex-start;
     justify-content: flex-start;
     margin-left: 24px;
     margin-top: 10px;
 }
 
-@media (max-width: 1920px) { 
-    
-    #card{
-    margin-left: 460px;
+@media (max-width: 1920px) {
+
+    #card {
+        margin-left: 460px;
     }
-    .cardrow{
+
+    .cardrow {
         overflow: hidden;
     }
-    #projects{
+
+    #projects {
         margin-bottom: 48px;
     }
-    .cardrow{
-        margin-top: 24px; margin-bottom: 52px;
+
+    .cardrow {
+        margin-top: 24px;
+        margin-bottom: 52px;
     }
-    #linefix{
+
+    #linefix {
         margin-left: 130px;
     }
-    .firstcard{
+
+    .firstcard {
         margin-left: 48px;
     }
-    .lastcard{
+
+    .lastcard {
         margin-right: 48px;
     }
 }
 
 
-@media (max-width: 1824px) { 
-    .lp-para-main{
+@media (max-width: 1824px) {
+    .lp-para-main {
         width: 400;
     }
 
-    #card{
-    margin-left: 400px;
+    #card {
+        margin-left: 400px;
     }
-    .cardrow{
+
+    .cardrow {
         overflow: hidden;
     }
-    #projects{
+
+    #projects {
         margin-bottom: 48px;
     }
-    .firstcard{
+
+    .firstcard {
         margin-left: 48px;
     }
-    .lastcard{
+
+    .lastcard {
         margin-right: 48px;
     }
-    
+
 }
 
-@media (max-width: 1694px) { 
-    #card{
-    margin-left: 360px;
+@media (max-width: 1694px) {
+    #card {
+        margin-left: 360px;
     }
-    .cardrow{
+
+    .cardrow {
         overflow: hidden;
     }
-    #projects{
+
+    #projects {
         margin-bottom: 48px;
     }
-    .cardrow{
-        margin-top: 8px; margin-bottom: 48px;
-    }
-    .firstcard{
-        margin-left: 48px;
-    }
-    .lastcard{
-        margin-right: 48px;
-    }
-}
 
-
-@media (max-width: 1536px) { 
-    #card{
-    margin-left: 330px;
-    }
-    .cardrow{
-        overflow: hidden;
-    }
-    #projects{
+    .cardrow {
+        margin-top: 8px;
         margin-bottom: 48px;
     }
-    .cardrow{
-        margin-top: 4px; margin-bottom: 36px;
-    }
-    .firstcard{
+
+    .firstcard {
         margin-left: 48px;
     }
-    .lastcard{
+
+    .lastcard {
         margin-right: 48px;
     }
 }
 
-@media (max-width: 1408px) { 
-    #card{
-    margin-left: 240px;
+
+@media (max-width: 1536px) {
+    #card {
+        margin-left: 330px;
     }
-    
-    .lp-para{
+
+    .cardrow {
+        overflow: hidden;
+    }
+
+    #projects {
+        margin-bottom: 48px;
+    }
+
+    .cardrow {
+        margin-top: 4px;
+        margin-bottom: 36px;
+    }
+
+    .firstcard {
+        margin-left: 48px;
+    }
+
+    .lastcard {
+        margin-right: 48px;
+    }
+}
+
+@media (max-width: 1408px) {
+    #card {
+        margin-left: 240px;
+    }
+
+    .lp-para {
         margin-left: 90px;
     }
-    .cardrow{
+
+    .cardrow {
         overflow: hidden;
-        margin-top: 12px; margin-bottom: 26px;
+        margin-top: 12px;
+        margin-bottom: 26px;
     }
-    #projects{
+
+    #projects {
         margin-bottom: 48px;
     }
-    #linefix{
+
+    #linefix {
         margin-left: 90px;
     }
-    .firstcard{
+
+    .firstcard {
         margin-left: 48px;
     }
-    .lastcard{
+
+    .lastcard {
         margin-right: 48px;
     }
 }
 
 @media (max-width: 1280px) {
-    #card{
+    #card {
         margin-left: 130px;
     }
 
-    .lp-para{
+    .lp-para {
         margin-left: 70px;
     }
-    .cardrow{
+
+    .cardrow {
         overflow: hidden;
-        margin-top: 0px; margin-bottom: 52px;
-        
+        margin-top: 0px;
+        margin-bottom: 52px;
+
     }
-    #projects{
+
+    #projects {
         margin-bottom: 48px;
     }
-    #linefix{
+
+    #linefix {
         margin-left: 70px;
     }
-    .firstcard{
+
+    .firstcard {
         margin-left: 48px;
     }
-    .lastcard{
+
+    .lastcard {
         margin-right: 48px;
     }
-    
+
 }
+
 @media (min-width: 1024px) {
-    #sidebar{
-       -webkit-box-shadow: none;
-       -moz-box-shadow: none;
-       box-shadow: none;
+    #sidebar {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
     }
-    #closebt{
+
+    #closebt {
         width: 0px;
-        visibility:collapse;
-        
+        visibility: collapse;
+
     }
-    #closebt svg{
+
+    #closebt svg {
         width: 0px;
-        visibility:collapse;
+        visibility: collapse;
     }
-    
+
 }
 
 @media (max-width: 1024px) {
-    #card{
+    #card {
         margin-left: 85px;
     }
-    .cardrow{
-        margin-top: 0px; margin-bottom: 26px;
+
+    .cardrow {
+        margin-top: 0px;
+        margin-bottom: 26px;
         overflow-x: scroll;
         width: 100vw;
         align-items: start;
-        justify-content:start;
+        justify-content: start;
     }
-    .dev{
+
+    .dev {
         align-items: center;
         justify-content: center;
     }
-    .lp-para{
+
+    .lp-para {
         margin-left: 70px;
         width: 440px;
     }
-    .navbar{
+
+    .navbar {
         visibility: hidden;
         width: 0px;
     }
-    .navdiv{
+
+    .navdiv {
         width: 0px;
     }
-    
-    #projects{
+
+    #projects {
         margin-bottom: 48px;
     }
-    .firstcard{
+
+    .firstcard {
         margin-left: 48px;
     }
-    .lastcard{
+
+    .lastcard {
         margin-right: 48px;
     }
-    #logo{
+
+    #logo {
         max-width: 280px;
         margin-left: 32px;
     }
-    #sidebar{
+
+    #sidebar {
         width: 40%;
     }
-    #closer{
+
+    #closer {
         margin-top: 32px;
     }
-    
- }
 
-@media (max-width: 870px){
-    #card{
-        margin-left: 20px;
-    }
-    .lp-para{
-        width: 350px;
-    }
-    .name{
-        font-size:medium;
-    }
-    #projects{
-        margin-bottom: 48px;
-    }
-    .cardrow{
-        margin-top: 4px; margin-bottom: 12px;
-        
-    }
-    .firstcard{
-        margin-left: 48px;
-    }
-    .lastcard{
-        margin-right: 48px;
-    }
-    
-    
 }
 
-@media (max-width: 768px){
-    
-    #landingpage{      
+@media (max-width: 870px) {
+    #card {
+        margin-left: 20px;
+    }
+
+    .lp-para {
+        width: 350px;
+    }
+
+    .name {
+        font-size: medium;
+    }
+
+    #projects {
+        margin-bottom: 48px;
+    }
+
+    .cardrow {
+        margin-top: 4px;
+        margin-bottom: 12px;
+
+    }
+
+    .firstcard {
+        margin-left: 48px;
+    }
+
+    .lastcard {
+        margin-right: 48px;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+
+    #landingpage {
         display: flex;
         flex-direction: column;
         justify-items: center;
         align-items: center;
     }
 
-    #landingpage1{
+    #landingpage1 {
         width: 100vw;
         justify-items: center;
         align-items: center;
-        
+
     }
-    #card{
+
+    #card {
         width: fit-content;
         margin-left: auto;
         margin-right: auto;
     }
-    
-    #landingpage2{ 
+
+    #landingpage2 {
         width: 90vw;
     }
-    .cardrow{
-        margin-top: 4px; margin-bottom: 24px;
+
+    .cardrow {
+        margin-top: 4px;
+        margin-bottom: 24px;
         overflow-x: scroll;
         width: 100vw;
         align-items: start;
-        justify-content:start;
+        justify-content: start;
     }
-    .dev{
+
+    .dev {
         align-items: center;
         justify-content: center;
     }
-    .lp-para-main{
+
+    .lp-para-main {
         align-items: center;
         justify-content: center;
-        margin: 0px 16px 48px 16px ;
+        margin: 0px 16px 48px 16px;
         flex-direction: column;
-        
+
     }
-    .lp-para{
+
+    .lp-para {
         margin: auto;
         width: auto;
         text-align: center;
     }
-    
-    #skillrow1{
-        margin-top: 48px; margin-bottom: 52px;
+
+    #skillrow1 {
+        margin-top: 48px;
+        margin-bottom: 52px;
     }
-    
-    #skillrow2{
-        margin-top: 48px; margin-bottom: 52px;
+
+    #skillrow2 {
+        margin-top: 48px;
+        margin-bottom: 52px;
     }
-    #projects{
+
+    #projects {
         margin-bottom: 24px;
     }
-    #linefix{
+
+    #linefix {
         margin-right: 70px;
     }
-    #logo{
+
+    #logo {
         max-width: 310px;
         margin-left: 32px;
     }
-    .bgimg{
+
+    .bgimg {
         background-image: url("./assets/bgimg5.png");
     }
-     
- }
+
+}
 
 @media (max-width: 640px) {
-    body{
+    body {
         overflow-x: hidden;
         width: 100vw;
     }
-    .cardrow{
-        margin-top: 0px; margin-bottom: 12px;
+
+    .cardrow {
+        margin-top: 0px;
+        margin-bottom: 12px;
         overflow-x: scroll;
         width: 100vw;
         align-items: start;
-        justify-content:start;
+        justify-content: start;
     }
-    #projects{
+
+    #projects {
         margin-bottom: 18px;
     }
-    #contactform{
+
+    #contactform {
         flex-direction: column;
     }
-    .contactimg{
+
+    .contactimg {
         width: 360px;
         border-radius: 4px 4px 0px 0px;
         height: 250px;
@@ -873,196 +974,240 @@ a:hover{
         background-size: cover;
     }
 
-    .contactimg img{
+    .contactimg img {
         align-items: center;
         justify-content: center;
         height: 200px;
         padding-right: 38px;
     }
-    .formbox{
+
+    .formbox {
         align-items: center;
         justify-content: center;
     }
-    .send{
-        margin-right: 32px;       
+
+    .send {
+        margin-right: 32px;
     }
-    .form{
+
+    .form {
         margin-left: 16px;
         margin-right: 16px;
         text-align: center;
     }
-    #skillmainrow{
+
+    #skillmainrow {
         flex-direction: column;
     }
-    #skillrow1{
-        margin-top: 48px; margin-bottom: 12px;
+
+    #skillrow1 {
+        margin-top: 48px;
+        margin-bottom: 12px;
     }
-    
-    #skillrow2{
-        margin-top: 18px; margin-bottom: 52px;
+
+    #skillrow2 {
+        margin-top: 18px;
+        margin-bottom: 52px;
     }
-    #linefix{
+
+    #linefix {
         margin-right: 70px;
     }
-    #sidebar{
+
+    #sidebar {
         width: 70%;
     }
-    #closer{
+
+    #closer {
         margin-top: 30px;
     }
-    
+
 }
 
-@media (max-width: 472px){
-    #card{
+@media (max-width: 472px) {
+    #card {
         margin-top: 100px;
         margin-bottom: 32px;
         width: 340px;
-        
+
     }
-    #card-bottom{
+
+    #card-bottom {
         width: 340px;
     }
-    .lp2fix{
+
+    .lp2fix {
         margin-top: 18px;
     }
 
-    .modes{
+    .modes {
         flex-direction: column;
     }
-    .cardeffect{
+
+    .cardeffect {
         margin: 10px;
     }
-    .firstcard{
+
+    .firstcard {
         margin-left: 32px;
     }
-    .lastcard{
+
+    .lastcard {
         margin-right: 32px;
     }
-    .gffix{
+
+    .gffix {
         margin-left: 16px;
         margin-right: 16px;
         text-align: center;
     }
-    #logo{
+
+    #logo {
         width: 240px;
         margin-left: 16px;
     }
-    .nav{
+
+    .nav {
         height: 76px;
     }
-    #closer{
+
+    #closer {
         margin-top: 21.5px;
     }
 }
 
-@media (max-width: 375px){
-    #card{
+@media (max-width: 375px) {
+    #card {
         margin-top: 100px;
         margin-bottom: 48px;
     }
-    #project-subhead{
+
+    #project-subhead {
         flex-direction: column;
     }
-    .firstcard{
+
+    .firstcard {
         margin-left: 16px;
     }
-    .lastcard{
+
+    .lastcard {
         margin-right: 16px;
     }
-    #logo{
+
+    #logo {
         max-width: 210px;
         margin-left: 16px;
     }
-    .nav{
+
+    .nav {
         height: 64px;
     }
-    .lp2fix{
+
+    .lp2fix {
         margin-top: 12px;
     }
-    #closer{
+
+    #closer {
         margin-top: 16px;
     }
-}   
+}
 
-@media (max-width: 320px){
-    .skillbox img{
+@media (max-width: 320px) {
+    .skillbox img {
         width: 32px;
         height: 32px;
     }
-    .skillbox{
+
+    .skillbox {
         width: 32px;
         height: 32px;
     }
-    #card{
+
+    #card {
         width: 300px;
     }
-    #card-bottom{
+
+    #card-bottom {
         width: 300px;
     }
-    .contactimg{
+
+    .contactimg {
         width: 320px;
     }
-    .formbox{
+
+    .formbox {
         width: 320px;
     }
-    
-    .name{
-        font-size:smaller;
+
+    .name {
+        font-size: smaller;
         margin-left: 2px;
     }
-    .subhead{
-        font-size:smaller;
+
+    .subhead {
+        font-size: smaller;
     }
-    #rect{
+
+    #rect {
         margin: 10px;
     }
-    .firstcard{
+
+    .firstcard {
         padding-left: 16px;
     }
-    .lastcard{
+
+    .lastcard {
         padding-right: 16px;
     }
-    .lp2fix{
-        margin-top: 14px;
-    }
-    #closer{
-        margin-top: 14px;
-    }
-}    
 
-@media (max-width: 280px){
-    #logo{
+    .lp2fix {
+        margin-top: 14px;
+    }
+
+    #closer {
+        margin-top: 14px;
+    }
+}
+
+@media (max-width: 280px) {
+    #logo {
         max-width: 190px;
         margin-left: 18px;
     }
-    #card-bottom{
+
+    #card-bottom {
         width: 260px;
     }
-    .contactimg{
+
+    .contactimg {
         width: 280px;
     }
-    .formbox{
+
+    .formbox {
         width: 280px;
     }
-    .form{
+
+    .form {
         width: 260px;
     }
-    .gffix{
+
+    .gffix {
         text-align: center;
         margin: 0px 8px 0px 8px;
         font-size: 12px;
     }
-    .lp-para-main{
-        margin: 0px;        
+
+    .lp-para-main {
+        margin: 0px;
     }
-    #card{
+
+    #card {
         margin-top: 130px;
         margin-bottom: 48px;
     }
-    .lp2fix{
+
+    .lp2fix {
         margin-top: 12px;
     }
-    
-}
 
+}
