@@ -48,6 +48,7 @@ body {
     height: 96px;
     width: 100vw;
     background-color: white;
+    /* border: 2px solid #0050ff; */
     position: fixed;
     box-shadow: -1px 2px 9px 0px rgba(206, 206, 206, 0.63);
     -webkit-box-shadow: -1px 2px 9px 0px rgba(206, 206, 206, 0.63);
@@ -89,13 +90,12 @@ body {
     margin: 10px;
 }
 
-.line {
+/* .line {
     background-color: #0050ff;
     height: 2px;
     width: 48px;
     border-radius: 6px;
-
-}
+} */
 
 .name {
     font-family: 'Poppins', sans-serif;
@@ -110,14 +110,21 @@ body {
 .navlink {
     margin-left: 12px;
     margin-right: 12px;
+    border: 2px solid #0050ff;
+    border-radius: 10px;
+    padding: 6px;
 }
 
 .navlink:hover {
-    color: #0050ff;
+    /* color: #0050ff; */
+    background-color: #0050ff;
     margin-left: 12px;
     margin-right: 12px;
 }
 
+.navlink:hover a {
+    color: #ffffff;
+}
 
 .dp {
     height: 180px;
@@ -176,6 +183,10 @@ body {
     padding-right: 8px;
 }
 
+.px img {
+    cursor: pointer;
+}
+
 .lp-para {
     margin-left: 130px;
     margin-right: 48px;
@@ -203,6 +214,7 @@ body {
     border-radius: 20px;
     text-align: center;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .button2 {
@@ -215,6 +227,7 @@ body {
     border-radius: 20px;
     font-weight: 800;
     text-align: center;
+    cursor: pointer;
 }
 
 .button2:hover {
@@ -321,11 +334,11 @@ input:focus {
 }
 
 .adobexd {
-    border: solid 2px #450034;
-    background-color: #450034;
-    color: #FF61F6;
-    width: 14px;
-    height: 14px;
+    border: solid 2px #2D0402;
+    background-color: #2D0402;
+    color: #FF9A00;
+    width: 18px;
+    height: 18px;
     padding: 4px;
     font-size: x-small;
     padding-bottom: 5px;
@@ -339,8 +352,8 @@ input:focus {
     border: solid 2px #2D0402;
     background-color: #2D0402;
     color: #FF9A00;
-    width: 14px;
-    height: 14px;
+    width: 18px;
+    height: 18px;
     padding: 4px;
     font-size: x-small;
     padding-bottom: 5px;
@@ -354,8 +367,8 @@ input:focus {
     border: solid 2px #0057FF;
     background-color: #0057FF;
     color: white;
-    width: 14px;
-    height: 14px;
+    width: 18px;
+    height: 18px;
     padding: 4px;
     font-size: x-small;
     padding-bottom: 5px;
@@ -431,6 +444,7 @@ input:focus {
     width: 325px;
     height: 250px;
     align-items: center;
+    /* background-image: url('./assets/bg.gif'); */
     background-image: url('./assets/bg.gif');
     background-size: cover;
 }
@@ -483,6 +497,7 @@ input:focus {
 
 .lp-para-main {
     max-width: 700px;
+    padding-left: 20px;
 }
 
 .send {
