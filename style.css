@@ -4,6 +4,16 @@ body {
 
 }
 
+/* nav bar */
+.flex-row.nav {
+    background-color: #4ba1aa;
+    background-color: #6bdad2;
+}
+
+#card {
+    background-color: #a5daf1;
+}
+
 .flex-row {
     display: flex;
     flex-direction: row;
